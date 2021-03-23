@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.l_body{
+    background: linear-gradient(to bottom, rgb(255, 253, 253), rgb(255, 183, 168)) ;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-form{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    padding: 0 1em;
+    box-shadow: -1px 3px 5px 2px rgba(165, 33, 33, 0.5);
+}
+.login-form .login-form__title{
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2em 0;
+}
+.login-form .login-form__title h1{
+    background: -webkit-linear-gradient(rgb(255, 131, 131), rgb(124, 57, 57));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.login-form .login-form__input{
+    width: 100%;
+    margin-top: 1em;
+}
+.login-form .login-form__input .login-form__input__bar{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+.login-form .login-form__input .login-form__input__bar label{
+    width: 100%;
+    background: -webkit-linear-gradient(rgb(153, 50, 50), rgb(124, 57, 57));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 10px;
+}
+.login-form .login-form__input .login-form__input__bar input{
+    flex: 1;
+    padding: 10px;
+    outline: none;
+}
+.login-form .login-form__input .login-form__input__bar input.submit{
+    padding: 20px;
+    margin-top: 2em;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, rgb(255, 118, 118),rgb(255, 64, 64));
+}
+.login-form .login-form__input .login-form__input__bar input.submit:hover{
+    background: linear-gradient(to right, rgb(221, 79, 79),rgb(218, 54, 54));
+}
